@@ -13,25 +13,26 @@
 
 // const finalAnswer = guessWho();
 // console.log(finalAnswer);
-// // Prediction: 
+// // Prediction: Guess who is Joseph
 
-// // GUESS 2 ///////////////////
+// GUESS 2 ///////////////////
 
-let firstName = "Donna";
+// let firstName = "Donna";
 
-const guessWho = function () {
-  const glasses = false;
-  let firstName = "Liz";
-  return `Guess Who is ${firstName}.`;
-};
+// const guessWho = function () {
+//   const glasses = false;
+//   let firstName = "Liz";
+//   return `Guess Who is ${firstName}.`;
+// };
 
-const guess1 = guessWho();
-console.log("guess1: ", guess1);
+// const guess1 = guessWho();
+// console.log("guess1: ", guess1);
 
-const guess2 = `Guess Who is ${firstName}`;
-console.log("guess2: ", guess2);
+// const guess2 = `Guess Who is ${firstName}`;
+// console.log("guess2: ", guess2);
+// // Prediction: Guess Who is Liz/Guess Who is Donna
 
-// // GUESS 3 ///////////////////
+// GUESS 3 ///////////////////
 
 // const guess = {
 //   hair_colour: "black",
@@ -61,8 +62,9 @@ console.log("guess2: ", guess2);
 
 // const finalAnswer = guessWho();
 // console.log(finalAnswer);
+// // Guess Who is Chris
 
-// // GUESS 4 ///////////////////
+// GUESS 4 ///////////////////
 
 // let firstName = "Gail";
 
@@ -76,6 +78,7 @@ console.log("guess2: ", guess2);
 
 // const finalAnswer = guessWho();
 // console.log(finalAnswer);
+// // Guess Who is Gail
 
 // // GUESS 5 ///////////////////
 
@@ -99,3 +102,4 @@ console.log("guess2: ", guess2);
 
 // changeGuess();
 // console.log(`Guess Who is ${guess.firstName}`);
+// ERROR since trying to reassign guess which is a constant
